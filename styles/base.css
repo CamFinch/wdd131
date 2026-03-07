@@ -1,0 +1,106 @@
+:root{
+    border-radius: 20%;
+}
+.nav-head{
+    padding-top: 30px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.nav-head h1{
+    margin: 0 auto;
+   
+}
+
+.nav-main{
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: block;
+}
+
+.nav-main a{
+    padding: 30px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.nav-main a:hover{
+    font-size: 22px;
+
+}
+
+.name-top{
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 40px;
+
+}
+
+.main-section{
+    display: grid;
+    grid-template-columns: 2.1fr 1.2fr;
+    
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.profile-pic img{
+    width: 200px;
+    position: relative;
+    padding-left: 20px;
+    
+}
+
+.about{
+    width: 60%;
+    border: 2px solid black;
+    margin-left: 20%;
+    
+}
+
+.about p{
+    font-size: 18px;;
+}
+
+.about-inside{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10px;
+}
+.about h2{
+    text-decoration: underline;
+    text-align: center;
+    width: 100%;
+
+}
+
+.web {
+    width: 60%;
+    border: 2px solid black;
+    margin-left: -15%;
+    
+}
+.web h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.links a{
+    padding-left: 35px;
+    padding-top: 10px;
+    display: block;
+}
+
+footer{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+footer p{
+    text-align: center;
+    padding-top: 30px;
+}

@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 131, Cameron Finch">
+    <meta name="author" content="Cameron Finch">
+    <meta property="og:title" content="WDD131" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://camfinch.github.io/wdd131/" />
     <title>WDD131</title>
     <link rel="stylesheet" type="text/css" href="styles/base.css">
     <script src="scripts/script.js"></script>
@@ -14,23 +19,46 @@
     <div class="nav-main">
         <a href="#">Linkedn</a>
         <a href="#">I-Learn</a>
-        <a href="#">Scripture</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/11?lang=eng">Scripture</a>
         <a href="#">Final Project</a>
     </div>
 
     <div class="name-top">
         <h1>Cameron Finch</h1>
     </div>
-
-    <section class="about-me">
-
-    </section>
-    <section class="webdev">
-
-    </section>
+    <div class="main-section">
+        <section class="about">
+            <h2>About Me</h2>
+            <div class="about-inside">
+                <p>
+                    My name is Cameron Finch. I was born and raised in a small town in New Mexico. I 
+                    manage a pool for our middle and high school currently. 
+                </p>
+                <div class="profile-pic">
+                    <img src="images/cameronprofile.JPG">
+                </div>
+            </div>
+        </section>
+        <section class="web">
+            <h2> Web Dev Resources</h2>
+            <div class="links">
+                <a href="https://www.w3schools.com/">W3 Schools</a>
+                <a href="https://developer.mozilla.org/en-US/">MDN Docs</a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+        </section>
+    </div>
 
     <footer>
-        ©Cameron Finch USA
+
+       <p>©Cameron Finch USA </p>
+       <p>Last Modified: <span id="lastModified"></span> </p>
+        <script>
+        
+            let modified = document.lastModified;
+            document.getElementById("lastModified").innerHTML = modified;
+        </script>
     </footer>
 </body>
 </html>
