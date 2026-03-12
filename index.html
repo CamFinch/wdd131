@@ -3,59 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WDD 131, Cameron Finch">
+    <meta name="description" content="Homework portal for BYU Idaho's WDD131, Dynamic Web Fundamentals.
+    Home Page, about me, and picture of me.">
     <meta name="author" content="Cameron Finch">
     <meta property="og:title" content="WDD131" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://camfinch.github.io/wdd131/" />
-    <title>WDD131</title>
+    <title>WDD, 131, Dynamic Web Fundamentals, Cameron Finch</title>
     <link rel="stylesheet" type="text/css" href="styles/base.css">
-    <script src="scripts/script.js"></script>
+    <script src="scripts/getdates.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="nav-head">
-        <h1>WDD131: Dynamic Web Fundamentals</h1>
-    </div>
-    <div class="nav-main">
-        <a href="#">Linkedn</a>
-        <a href="#">I-Learn</a>
-        <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/11?lang=eng">Scripture</a>
-        <a href="#">Final Project</a>
-    </div>
-
-    <div class="name-top">
-        <h1>Cameron Finch</h1>
-    </div>
-    <div class="main-section">
-        <section class="about">
-            <h2>About Me</h2>
-            <div class="about-inside">
-                <p>
-                    My name is Cameron Finch. I was born and raised in a small town in New Mexico. I 
-                    manage a pool for our middle and high school currently. 
-                </p>
-                <div class="profile-pic">
-                    <img src="images/cameronprofile.JPG">
+    <header class="nav-head">
+        <span id="course-title">WDD131: Dynamic Web Fundamentals</span>
+            <nav class="nav-main">
+                <a href="#">Linkedn</a>
+                <a href="#">I-Learn</a>
+                <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/11?lang=eng">Scripture</a>
+                <a href="#">Final Project</a>
+            </nav>
+    </header>
+    <main>
+        <div class="name-top">
+            <h1>Cameron Finch</h1>
+        </div>
+        <div class="main-section">
+            <section class="about">
+                <h2>About Me</h2>
+                <div class="about-inside">
+                    <p>
+                        My name is Cameron Finch. I was born and raised in a small town in New Mexico. I 
+                        manage a pool for our middle and high school currently. 
+                    </p>
+                    <div class="profile-pic">
+                        <img src="images/cameronprofile.jpg">
+                    </div>
                 </div>
-            </div>
-        </section>
-        <section class="web">
-            <h2> Web Dev Resources</h2>
-            <div class="links">
-                <a href="https://www.w3schools.com/">W3 Schools</a>
-                <a href="https://developer.mozilla.org/en-US/">MDN Docs</a>
-                <a href="#"></a>
-                <a href="#"></a>
-            </div>
-        </section>
-    </div>
-
+            </section>
+            <section class="web">
+                <h2> Web Dev Resources</h2>
+                <div class="links">
+                    <a href="https://www.w3schools.com/">W3 Schools</a>
+                    <a href="https://developer.mozilla.org/en-US/">MDN Docs</a>
+                    <a href="https://validator.w3.org/?utm_source=chatgpt.com">HTML Validator</a>
+                    <a href="https://jigsaw.w3.org/css-validator/?utm_source=chatgpt.com">CSS Validator</a>
+                </div>
+            </section>
+        </div>
+    </main>
     <footer>
-
+        <p>Last Modified: <span id="lastModified"></span> </p>
        <p>©Cameron Finch USA </p>
-       <p>Last Modified: <span id="lastModified"></span> </p>
+
         <script>
-        
             let modified = document.lastModified;
             document.getElementById("lastModified").innerHTML = modified;
         </script>

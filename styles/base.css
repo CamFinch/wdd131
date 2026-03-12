@@ -1,22 +1,38 @@
 :root{
     border-radius: 20%;
 }
+
+
+
+header{
+    margin: 0 auto;
+}
+#course-title{
+margin: 0 auto;
+font-size: 30px;
+font-weight: 800;
+margin-left: 20px;
+
+}
+
 .nav-head{
     padding-top: 30px;
     width: 600px;
     margin: 0 auto;
 }
 
-.nav-head h1{
+main{
     margin: 0 auto;
-   
 }
+
+
 
 .nav-main{
     width: 600px;
     margin: 0 auto;
     padding-top: 50px;
-    display: block;
+    display: flex;
+
 }
 
 .nav-main a{
